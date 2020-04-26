@@ -5,11 +5,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar />
-      <div className='container'>
-        <h4>TODO: DISPLAY PROFILE</h4>
-      </div>
+      <div className='container'></div>
       <Footer />
     </div>
   );
@@ -17,4 +15,4 @@ function App() {
 
 export default App;
 
-    /*<Route exact path='/' component={Landing} />*/
+/*<Route exact path='/' component={Landing} />*/

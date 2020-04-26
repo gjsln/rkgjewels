@@ -1,3 +1,43 @@
-.mb-4 {
-    border:1px solid blanchedalmond;
+.top-menu {
+    border-top: 4px solid goldenrod;
+}
+
+ul.main-menu {
+    padding-left: 5rem;
+}
+
+.main-menu .menu-item {
+    padding: 0.8rem 3rem 0;
+}
+
+.sub-menu {
+    height: 3rem;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.75), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.secondary-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.secondary-menu li {
+    padding: 0.8rem 4rem;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.main-menu a {
+    color: #333;
+}
+
+.secondary-menu li a {
+    color: #fff;
+}
+
+li a:hover {
+    color: goldenrod;
+    text-decoration: none;
 }
