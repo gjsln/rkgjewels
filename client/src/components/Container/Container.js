@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom'
 
-import { Home, About, Contacts } from '../';
+import { Home, About, Contacts, GetYourOffer } from '../';
 
 class Container extends Component {
   render() {
@@ -11,6 +11,7 @@ class Container extends Component {
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/contacts' component={Contacts}/>
+          <Route path='/get-your-offer' component={GetYourOffer}/>
         </Switch>
       </div>
     );

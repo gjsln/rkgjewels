@@ -10,7 +10,9 @@
     font-size: 2rem;
 }
 .footer-container {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    opacity: 0.8;
+    background-color: #000;
 }

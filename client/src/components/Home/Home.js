@@ -8,8 +8,8 @@ class Home extends Component {
           <div className='container'>
             <div className='row'>
               <div className='col-md-12 text-center'>
-                <h2 className='display-3 mb-4'>SELL DIAMONDS, JEWELRY
-                LUXURY WATCHES AND BAGS ONLINE</h2>
+                <h3 className='display-4 mb-4'>SELL DIAMONDS, JEWELRY
+                LUXURY WATCHES AND BAGS ONLINE</h3>
                 <p className='lead'>
                 The faster and safer way to sell diamonds, jewelry,
                 luxury watches and bags for the best possible prices.

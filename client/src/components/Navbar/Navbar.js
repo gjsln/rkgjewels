@@ -48,7 +48,7 @@ class Navbar extends Component {
               <Link to='/watches'>WATCHES</Link>
             </li>
             <li className='menu-item'>
-              <Link to='/aboutUs'>ABOUT US</Link>
+              <Link to='/about'>ABOUT US</Link>
             </li>
             <li className='menu-item'>
               <Link to='/buyJewelry'>BUY JEWELRY</Link>
